@@ -1,0 +1,998 @@
+@font-face {
+    font-family: 'Stem-Regular';
+    src: url('/font/Stem-Regular.eot');
+    src: url('/font/Stem-Regular.eot?#iefix') format('embedded-opentype'),
+        url('/font/Stem-Regular.woff2') format('woff2'),
+        url('/font/Stem-Regular.woff') format('woff'),
+        url('/font/Stem-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Stem-Medium';
+    src: url('/font/Stem-Medium.woff2') format('woff2'),
+        url('/font/Stem-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap
+}
+
+@font-face {
+    font-family: 'Stem-Bold';
+    src: url('/font/Stem-Bold.woff2') format('woff2'),
+        url('/font/Stem-Bold.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap
+}
+
+* {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: geometricPrecision;
+    animation: all;
+    animation-duration: 0.2s;
+}
+
+.container {
+    max-width: 100%;
+    width: 100%;
+    padding-left: 7.5rem;
+    padding-right: 7.5rem;
+}
+
+body {
+    color: #262626;
+    background: rgb(255, 255, 255);
+    background: linear-gradient(180deg, rgba(255, 255, 255, 1) 0%, rgba(250, 181, 41, 1) 50%, rgba(255, 255, 255, 1) 100%);
+}
+
+.header-img {
+    background-image: url(../img/header.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #ffffff;
+    margin-left: 0%;
+    margin-right: 0%;
+    width: 100%;
+    height: 112vh;
+    padding-top: 6.25rem;
+    padding-bottom: 5.4375rem;
+}
+
+
+
+.log-1 {
+    margin-right: 2.1875rem;
+}
+
+.title--theater {
+    margin-top: 6.75rem;
+    font-family: 'Stem-Medium';
+    font-size: 5.3125rem;
+    line-height: 5.3125rem;
+}
+
+.header-cont {
+    padding: 0px;
+}
+
+.header-foot {
+    /*margin-top: 393px;*/
+    font-family: 'Stem-Regular';
+}
+
+.header-foot-1 {
+    font-size: 2.3849rem;
+    line-height: 3.125rem;
+}
+
+.header-foot-2 {
+    font-size: 1.125rem;
+    line-height: 1.6875rem;
+    text-align: right;
+}
+
+.invitation {
+    margin-top: 6.3125rem;
+    margin-bottom: 7.625rem;
+}
+
+.title {
+    font-family: 'Stem-Medium';
+    font-size: 5.3125rem;
+    line-height: 5.3125rem;
+    margin-bottom: 3.5625rem;
+}
+
+.invitation-txt-1 {
+    font-family: 'Stem-Bold';
+    font-size: 22px;
+    line-height: 2.0625rem;
+    text-transform: uppercase;
+    color: #FAB529;
+}
+
+.invitation-txt-2 {
+    font-family: 'Stem-Regular';
+    font-size: 1.75rem;
+    line-height: 2.625rem;
+}
+
+p {
+    margin-bottom: 3.875rem;
+}
+
+.span-1 {
+    size: 1.75rem;
+    line-height: 2.625rem;
+}
+
+.reward {
+    margin-bottom: 5.75rem;
+}
+
+.reward>.title {
+    margin-bottom: 6.25rem;
+}
+
+.sub-reward {
+    margin-top: 1.25rem;
+    font-size: 1.125rem;
+    line-height: 1.6875rem;
+    color: rgba(38, 38, 38, 0.5);
+}
+
+.info-festival>.title {
+    margin-bottom: 3.6875rem;
+}
+
+.info-festival-text {
+    font-family: 'Stem-Regular';
+    font-size: 1.75rem;
+    line-height: 2.625rem;
+}
+
+.gx-4 {
+    --bs-gutter-x: 2.2rem;
+}
+
+.group-img {
+    margin-top: 6.25rem;
+    margin-bottom: 7rem;
+}
+
+.group-img-2 {
+    margin-top: 1.6875rem;
+}
+
+.group-img-txt {
+    margin-top: 5.75rem;
+}
+
+.info-concurs {
+    font-family: 'Stem-Regular';
+    font-size: 28px;
+    line-height: 42px;
+}
+
+.info-concurs-1 {
+    margin-bottom: 2.6875rem;
+}
+
+.info-concurs-numbers {
+    font-family: 'Stem-Medium';
+    font-size: 5.3125rem;
+    line-height: 5.3125rem;
+    color: #FFFFFF;
+    margin-bottom: 10px;
+}
+
+.info-concurs-2 {
+    margin-top: 4.9375rem;
+}
+
+.info-concurs-2-1 {
+    font-family: 'Stem-Regular';
+    font-size: 1.25rem;
+    line-height: 1.875rem;
+    color: #262626;
+    margin-top: 1.25rem;
+}
+
+
+.inf-year::after {
+    content: "'23";
+    font-family: 'Stem-Bold';
+    font-size: 1.75rem;
+    line-height: 1.75rem;
+    position: absolute !important;
+}
+
+.suerte {
+    margin-top: 6.625rem;
+    margin-bottom: 9.25rem;
+}
+
+footer {
+    padding-top: 8.75rem;
+    padding-bottom: 8.75rem;
+    background-color: #262626;
+    font-family: 'Stem-Regular';
+    font-size: 1.3125rem;
+    line-height: 1.875rem;
+    color: #FFFFFF;
+}
+
+.footer-span {
+    font-family: 'Stem-Regular';
+    font-size: 16px;
+    line-height: 19px;
+    color: #FAB529;
+}
+
+.info-apear,
+.apear,
+.info-festival-apear,
+.ap-1 {
+    display: none;
+}
+
+
+@media(max-width: 820px) {
+    .container {
+        padding-left: 1.9375rem;
+        padding-right: 1.9375rem;
+    }
+
+    .header-img {
+        padding-top: 4.9375rem;
+        padding-bottom: 4.5625rem;
+        background-position-x: 66%;
+    }
+
+    .log-1 {
+        margin-right: auto;
+    }
+
+    .title--theater {
+        margin-top: 3.8125rem;
+        font-size: 2.125rem;
+        line-height: 2.125rem;
+    }
+
+    .header-foot-1 {
+        font-size: 1.5rem;
+        line-height: 1.8125rem;
+    }
+
+    .header-foot-2 {
+        font-size: .625rem;
+        line-height: .875rem;
+        text-align: left;
+        margin-top: .6875rem;
+    }
+
+    .header-cont {
+        padding: 0px;
+    }
+
+    .invitation {
+        margin-top: 2.25rem;
+        margin-bottom: 3.0625rem;
+    }
+
+    .title {
+        font-size: 2.125rem;
+        line-height: 2.125rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .invitation-txt-1-1 {
+        display: none;
+    }
+
+    .invitation-txt-2 {
+        font-size: .8125rem;
+        line-height: 1.2188rem;
+    }
+
+    p {
+        margin-bottom: 1.1875rem;
+    }
+
+    .span-1 {
+        font-size: .8125rem;
+        line-height: 1.2188rem;
+    }
+
+    .reward {
+        margin-bottom: 3.0625rem;
+    }
+
+    .reward>.title {
+        margin-bottom: 3.0625rem;
+    }
+
+    .sub-reward {
+        margin-top: .5rem;
+        font-size: .625rem;
+        line-height: .875rem;
+        color: #262626;
+        margin-bottom: 1.5rem;
+    }
+
+    .info-festival>.title {
+        margin-bottom: 2.0625rem;
+    }
+
+    .invitation-txt-1 {
+        font-size: .6875rem;
+        line-height: 1rem;
+    }
+
+    .info-festival-desapear {
+        display: none;
+    }
+
+    .info-festival-text {
+        font-size: .8125rem;
+        line-height: 1.2188rem;
+    }
+
+    .info-festival-apear {
+        display: block;
+        margin-top: 2.25rem;
+        font-size: 1.125rem;
+        line-height: 1.4375rem;
+        color: #FFFFFF;
+        margin-bottom: .625rem;
+    }
+
+    .group-img {
+        margin-top: 2.75rem;
+        margin-bottom: 3.8125rem;
+    }
+
+    .group-img-txt {
+        margin-top: 3.375rem;
+    }
+
+    .group-img-2 {
+        margin-top: 0rem;
+    }
+
+    .info-apear {
+        display: block;
+        background: #FFFFFF;
+        border-radius: 46.4516px;
+        padding: 6px 11px;
+        font-size: .75rem;
+        line-height: 1.125rem;
+        text-transform: uppercase;
+        color: #262626;
+        margin-top: .625rem;
+    }
+
+    .info-concurs {
+        font-size: .8125rem;
+        line-height: 1.25rem;
+    }
+
+    .info-concurs-1 {
+        margin-top: 3.9375rem;
+        margin-bottom: .5rem;
+        font-size: 1.0625rem;
+        line-height: 1.375rem;
+    }
+
+    .info-concurs-numbers {
+        margin-top: 1.875rem;
+        font-size: 2.125rem;
+        line-height: 2.125rem;
+        color: #FAB529;
+        margin-bottom: .125rem;
+    }
+
+    .info-concurs-2 {
+        margin-top: 2.0625rem;
+    }
+
+    .inf-year::after {
+        font-size: 1.25rem;
+        line-height: 1.25rem;
+        position: absolute !important;
+    }
+
+    .info-concurs-2-1 {
+        font-size: .625rem;
+        line-height: .875rem;
+        margin-top: 2.125rem;
+    }
+
+    .desapear {
+        display: none;
+    }
+
+    .apear {
+        display: block;
+    }
+
+    .heare {
+        border-top-style: groove;
+    }
+
+    .suerte {
+        margin-top: 2.3125rem;
+        margin-bottom: 2.4375rem;
+    }
+
+    footer {
+        padding-top: 2.9375rem;
+        padding-bottom: 3.5625rem;
+        font-size: .75rem;
+        line-height: 1rem;
+    }
+
+    .footer-span {
+        font-size: .5625rem;
+        line-height: .6875rem;
+
+    }
+
+    .foo-span-mar {
+        margin-top: 1.5625rem;
+    }
+
+    .foo-logo {
+        width: 85.21px;
+        height: 17.79px;
+    }
+}
+
+@media (min-width: 821px) and (max-width: 1024px) {
+    .container {
+        padding-left: 3.75rem;
+        padding-right: 3.75rem;
+    }
+
+    .header-cont {
+        padding: 0px;
+    }
+
+    .header-img {
+        padding-top: 7.6875rem;
+        padding-bottom: 4.75rem;
+        background-position-x: 66%;
+    }
+
+    .title--theater {
+        margin-top: 7.375rem;
+        font-size: 3.25rem;
+        line-height: 3.25rem;
+    }
+
+    .header-foot-1 {
+        font-size: 2.5rem;
+        line-height: 2.5rem;
+    }
+
+    .header-foot-2 {
+        font-size: .9375rem;
+        line-height: 1.375rem;
+        text-align: left;
+        margin-top: .9375rem;
+    }
+
+    .invitation {
+        margin-top: 4.1875rem;
+        margin-bottom: 3.625rem;
+    }
+
+    .title {
+        font-size: 3.25rem;
+        line-height: 3.25rem;
+        margin-bottom: 2.5rem;
+    }
+
+    .invitation-txt-1-1 {
+        visibility: hidden;
+    }
+
+    .invitation-txt-2 {
+        font-size: 1rem;
+        line-height: 1.5rem;
+    }
+
+    p {
+        margin-bottom: 2.8125rem;
+    }
+
+    .span-1 {
+        font-size: 1rem;
+        line-height: 2.0625rem;
+    }
+
+    .desapear {
+        display: none;
+    }
+
+    .apear {
+        display: block;
+    }
+
+    .span-2 {
+        size: 1.875rem;
+        line-height: 2.0625rem;
+    }
+
+    .reward {
+        margin-bottom: 3.875rem;
+    }
+
+    .reward>.title {
+        margin-bottom: 3.75rem;
+    }
+
+    .sub-reward {
+        margin-top: .875rem;
+        font-size: .75rem;
+        line-height: 1rem;
+        margin-bottom: 3.875rem;
+    }
+
+    .info-festival>.title {
+        margin-bottom: 2.6875rem;
+    }
+
+    .invitation-txt-1 {
+        font-size: 1rem;
+        line-height: 1.5rem;
+    }
+
+    .desapear-1 {
+        display: none;
+    }
+
+    .info-festival-text {
+        font-size: 1rem;
+        line-height: 1.5rem;
+    }
+
+    .info-festival-apear {
+        display: block;
+        font-size: 1.25rem;
+        line-height: 1.625rem;
+        color: #FFFFFF;
+    }
+
+    .desp {
+        display: none;
+    }
+
+    .ap-1 {
+        display: block;
+        display: flex;
+    }
+
+    .group-img {
+        margin-top: 3.6875rem;
+        margin-bottom: 4.1875rem;
+    }
+
+    .group-img-txt {
+        margin-top: 4.9375rem;
+    }
+
+    .sub-reward {
+        margin-top: .5rem;
+        font-size: .75rem;
+        line-height: .9375rem;
+        color: #262626;
+        margin-bottom: 0rem;
+    }
+
+    .group-img-2 {
+        margin-top: 2.5rem;
+    }
+
+    .info-concurs {
+        font-size: 1rem;
+        line-height: 1.5rem;
+    }
+
+    .info-concurs-1 {
+        margin-top: 3.8125rem;
+        margin-bottom: 1.5625rem;
+        font-size: 1.25rem;
+        line-height: 1.875rem;
+    }
+
+    .info-concurs-numbers {
+        margin-top: 1.5625rem;
+        font-size: 3.25rem;
+        line-height: 3.25rem;
+        margin-bottom: .125rem;
+    }
+
+    .info-concurs-2 {
+        margin-top: 2.0625rem;
+    }
+
+    .info-concurs-2-1 {
+        font-family: 'Stem-Regular';
+        font-size: 1rem;
+        line-height: 1.3125rem;
+        margin-top: 3.5625rem;
+    }
+
+    .suerte {
+        margin-top: 3.25rem;
+        margin-bottom: 4.1875rem;
+    }
+
+    footer {
+        padding-top: 4.125rem;
+        padding-bottom: 4.625rem;
+        font-size: .875rem;
+        line-height: .6875rem
+    }
+
+    .footer-span {
+        font-size: .5625rem;
+        line-height: .6875rem;
+
+    }
+
+    .foo-span-mar-1 {
+        margin-top: 1.5625rem;
+    }
+
+    .foo-logo {
+        width: 26.21px;
+        height: 15.26px;
+    }
+
+    .foo-log-1 {
+        width: 152.9px;
+        height: 31.92px;
+    }
+}
+
+@media (min-width: 1025px) and (max-width: 1400px) {
+    
+    .title--theater {
+        font-size: 3.3125rem;
+        line-height: 3.3125rem;
+    }
+
+    .header-cont {
+        padding: 0px;
+    }
+
+    .header-foot-1 {
+        font-size: 1.25rem;
+        line-height:1.6875rem;
+    }
+
+    .header-foot-2 {
+        font-size: .75rem;
+        line-height: 1.3rem;
+        text-align: right;
+    }
+
+    .invitation {
+        margin-top: 6.3125rem;
+        margin-bottom: 7.625rem;
+    }
+
+    .title {
+        font-size: 3.3125rem;
+        line-height: 3.3125rem;
+    }
+
+    .invitation-txt-1 {
+        font-size: 15px;
+        line-height: 1.625rem;
+    }
+
+    .invitation-txt-2 {
+        font-size: 1rem;
+        line-height: 1.625rem;
+    }
+
+    p {
+        margin-bottom: 3.875rem;
+    }
+
+    .span-1 {
+        size: 1.25rem;
+        line-height: 2.625rem;
+    }
+
+    .reward {
+        margin-bottom: 5.75rem;
+    }
+
+    .reward>.title {
+        margin-bottom: 6.25rem;
+    }
+
+    .sub-reward {
+        margin-top: 1.25rem;
+        font-size: .75rem;
+        line-height: .6875rem;
+        color: rgba(38, 38, 38, 0.5);
+    }
+
+    .info-festival>.title {
+        margin-bottom: 3.6875rem;
+    }
+
+    .info-festival-text {
+        font-size: 1rem;
+    line-height: 1.625rem;
+    }
+
+    .gx-4 {
+        --bs-gutter-x: 2.2rem;
+    }
+
+    .group-img {
+        margin-top: 6.25rem;
+        margin-bottom: 7rem;
+    }
+
+    .group-img-2 {
+        margin-top: 1.6875rem;
+    }
+
+    .group-img-txt {
+        margin-top: 5.75rem;
+    }
+
+    .info-concurs {
+        font-size: 1rem;
+    line-height: 1.625rem;
+    }
+
+    .info-concurs-1 {
+        margin-bottom: 2.6875rem;
+    }
+
+    .info-concurs-numbers {
+        font-family: 'Stem-Medium';
+        font-size: 4rem;
+        line-height: 4.3125rem;
+        color: #FFFFFF;
+        margin-bottom: 10px;
+    }
+
+    .info-concurs-2 {
+        margin-top: 4.9375rem;
+    }
+
+    .info-concurs-2-1 {
+        font-family: 'Stem-Regular';
+        font-size: 1rem;
+        line-height: 1.6rem;
+        color: #262626;
+        margin-top: 1.25rem;
+    }
+
+
+    .inf-year::after {
+        content: "'23";
+        font-family: 'Stem-Bold';
+        font-size: 1.75rem;
+        line-height: 1.75rem;
+        position: absolute !important;
+    }
+
+    .suerte {
+        margin-top: 6.625rem;
+        margin-bottom: 9.25rem;
+    }
+
+    footer {
+        padding-top: 8.75rem;
+        padding-bottom: 8.75rem;
+        background-color: #262626;
+        font-family: 'Stem-Regular';
+        font-size: 1rem;
+        line-height: 1.5rem;
+        color: #FFFFFF;
+    }
+
+    .footer-span {
+        font-family: 'Stem-Regular';
+        font-size: 10px;
+        line-height: 13px;
+        color: #FAB529;
+    }
+}
+
+@media (min-width: 1401px) and (max-width: 1800px) {
+    .header-img {
+        background-image: url(../img/header.svg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        color: #ffffff;
+        margin-left: 0%;
+        margin-right: 0%;
+        width: 100%;
+        height: 112vh;
+        padding-top: 6.25rem;
+        padding-bottom: 5.4375rem;
+    }
+
+    .log-1 {
+        margin-right: 2.1875rem;
+    }
+
+    .title--theater {
+        font-size: 4.3125rem;
+        line-height: 4.3125rem;
+    }
+
+    .header-cont {
+        padding: 0px;
+    }
+
+    .header-foot {
+        /*margin-top: 393px;*/
+        font-family: 'Stem-Regular';
+    }
+
+    .header-foot-1 {
+        font-size: 1.5849rem;
+        line-height: 2.125rem;
+    }
+
+    .header-foot-2 {
+        font-size: .75rem;
+        line-height: 1.3rem;
+        text-align: right;
+    }
+
+    .invitation {
+        margin-top: 6.3125rem;
+        margin-bottom: 7.625rem;
+    }
+
+    .title {
+        font-family: 'Stem-Medium';
+        font-size: 4.3125rem;
+        line-height: 4.3125rem;
+        margin-bottom: 3.5625rem;
+    }
+
+    .invitation-txt-1 {
+        font-family: 'Stem-Bold';
+        font-size: 22px;
+        line-height: 2.0625rem;
+        text-transform: uppercase;
+        color: #FAB529;
+    }
+
+    .invitation-txt-2 {
+        font-family: 'Stem-Regular';
+        font-size: 1.25rem;
+        line-height: 2.325rem;
+    }
+
+    p {
+        margin-bottom: 3.875rem;
+    }
+
+    .span-1 {
+        size: 1.25rem;
+        line-height: 2.625rem;
+    }
+
+    .reward {
+        margin-bottom: 5.75rem;
+    }
+
+    .reward>.title {
+        margin-bottom: 6.25rem;
+    }
+
+    .sub-reward {
+        margin-top: 1.25rem;
+        font-size: 1.125rem;
+        line-height: 1.6875rem;
+        color: rgba(38, 38, 38, 0.5);
+    }
+
+    .info-festival>.title {
+        margin-bottom: 3.6875rem;
+    }
+
+    .info-festival-text {
+        font-family: 'Stem-Regular';
+        font-size: 1.25rem;
+        line-height: 2.325rem;
+    }
+
+    .gx-4 {
+        --bs-gutter-x: 2.2rem;
+    }
+
+    .group-img {
+        margin-top: 6.25rem;
+        margin-bottom: 7rem;
+    }
+
+    .group-img-2 {
+        margin-top: 1.6875rem;
+    }
+
+    .group-img-txt {
+        margin-top: 5.75rem;
+    }
+
+    .info-concurs {
+        font-size: 21px;
+        line-height: 35px;
+    }
+
+    .info-concurs-1 {
+        margin-bottom: 2.6875rem;
+    }
+
+    .info-concurs-numbers {
+        font-family: 'Stem-Medium';
+        font-size: 4.3125rem;
+        line-height: 4.3125rem;
+        color: #FFFFFF;
+        margin-bottom: 10px;
+    }
+
+    .info-concurs-2 {
+        margin-top: 4.9375rem;
+    }
+
+    .info-concurs-2-1 {
+        font-family: 'Stem-Regular';
+        font-size: 1rem;
+        line-height: 1.6rem;
+        color: #262626;
+        margin-top: 1.25rem;
+    }
+
+
+    .inf-year::after {
+        content: "'23";
+        font-family: 'Stem-Bold';
+        font-size: 1.75rem;
+        line-height: 1.75rem;
+        position: absolute !important;
+    }
+
+    .suerte {
+        margin-top: 6.625rem;
+        margin-bottom: 9.25rem;
+    }
+
+    footer {
+        padding-top: 8.75rem;
+        padding-bottom: 8.75rem;
+        background-color: #262626;
+        font-family: 'Stem-Regular';
+        font-size: 1.3125rem;
+        line-height: 1.875rem;
+        color: #FFFFFF;
+    }
+
+    .footer-span {
+        font-family: 'Stem-Regular';
+        font-size: 16px;
+        line-height: 19px;
+        color: #FAB529;
+    }
+}
+
+/*@media (min-width: 1241px) and (max-width: 1690px) {}*/
