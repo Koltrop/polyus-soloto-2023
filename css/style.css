@@ -452,7 +452,7 @@ footer {
     }
 }
 
-@media (min-width: 821px) and (max-width: 1024px) {
+@media (min-width: 821px) and (max-width: 994px) {
     .container {
         padding-left: 3.75rem;
         padding-right: 3.75rem;
@@ -661,7 +661,161 @@ footer {
     }
 }
 
-@media (min-width: 1025px) and (max-width: 1400px) {
+@media (min-width: 995px) and (max-width: 1375px){
+    .container {
+        max-width: 100%;
+        width: 100%;
+        padding-left: 5.5rem;
+        padding-right: 5.5rem;
+    }
+    .title--theater {
+        font-size: 2.9rem;
+        line-height: 3.3125rem;
+    }
+
+    .header-cont {
+        padding: 0px;
+    }
+
+    .header-foot-1 {
+        font-size: 1.6rem;
+        line-height:1.6875rem;
+    }
+
+    .header-foot-2 {
+        font-size: .5rem;
+        line-height: 1.3rem;
+        text-align: right;
+    }
+
+    .invitation {
+        margin-top: 6.3125rem;
+        margin-bottom: 7.625rem;
+    }
+
+    .title {
+        font-size: 2.9rem;
+        line-height: 3.3125rem;
+    }
+
+    .invitation-txt-1 {
+        font-size: 11px;
+        line-height: 1.625rem;
+    }
+
+    .invitation-txt-2 {
+        font-size: .9rem;
+        line-height: 1.625rem;
+    }
+
+    p {
+        margin-bottom: 3.875rem;
+    }
+
+    .span-1 {
+        size: 1.25rem;
+        line-height: 2.625rem;
+    }
+
+    .reward {
+        margin-bottom: 5.75rem;
+    }
+
+    .reward>.title {
+        margin-bottom: 6.25rem;
+    }
+
+    .sub-reward {
+        margin-top: 1.25rem;
+        font-size: .75rem;
+        line-height: .6875rem;
+        color: rgba(38, 38, 38, 0.5);
+    }
+
+    .info-festival>.title {
+        margin-bottom: 3.6875rem;
+    }
+
+    .info-festival-text {
+        font-size: .8rem;
+        line-height: 1.325rem;
+    }
+
+    .gx-4 {
+        --bs-gutter-x: 2.2rem;
+    }
+
+    .group-img {
+        margin-top: 6.25rem;
+        margin-bottom: 7rem;
+    }
+
+    .group-img-2 {
+        margin-top: 1.6875rem;
+    }
+
+    .group-img-txt {
+        margin-top: 5.75rem;
+    }
+
+    .info-concurs {
+        font-size: .9rem;
+        line-height: 1.625rem;
+    }
+
+    .info-concurs-1 {
+        margin-bottom: 2.6875rem;
+    }
+
+    .info-concurs-numbers {
+        font-family: 'Stem-Medium';
+        font-size: 2.5rem;
+        line-height: 4.3125rem;
+        color: #FFFFFF;
+        margin-bottom: 10px;
+    }
+
+    .info-concurs-2 {
+        margin-top: 4.9375rem;
+    }
+
+    .info-concurs-2-1 {
+        font-size: .7rem;
+        line-height: 1.625rem;
+    }
+
+
+    .inf-year::after {
+        content: "'23";
+        font-family: 'Stem-Bold';
+        font-size: 1.75rem;
+        line-height: 1.75rem;
+        position: absolute !important;
+    }
+
+    .suerte {
+        margin-top: 6.625rem;
+        margin-bottom: 9.25rem;
+    }
+
+    footer {
+        padding-top: 8.75rem;
+        padding-bottom: 8.75rem;
+        background-color: #262626;
+        font-family: 'Stem-Regular';
+        font-size: .7rem;
+        line-height: 1.5rem;
+        color: #FFFFFF;
+    }
+
+    .footer-span {
+        font-family: 'Stem-Regular';
+        font-size: 7px;
+        line-height: 13px;
+        color: #FAB529;
+    }
+}
+@media (min-width: 1376px) and (max-width: 1400px) {
     
     .title--theater {
         font-size: 3.3125rem;
